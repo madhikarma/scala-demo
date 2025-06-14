@@ -31,7 +31,14 @@ or (without warnings)
     scala -J--add-opens=java.base/sun.misc=ALL-UNNAMED run counter.scala
 
 ### 3. SBT apps
-    
+
+#### 3.1 Root (Example)    
     sbt
     compile
     run
+
+#### 3.2 Akka Demo
+
+    cd akka-demo
+    sbt reStart
+    sbt reStop
