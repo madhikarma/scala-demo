@@ -9,9 +9,18 @@ Demo repo for learning Scala for Backend development
 
 ## Setup
 
-    `brew install coursier && coursier setup`
+    brew install coursier && coursier setup
 
 
 ## Usage
 
+### 1. Hello World
     scala run hello.scala
+
+### 2. Counter
+
+    scala run counter.scala
+
+or (without warnings)
+
+    scala -J--add-opens=java.base/sun.misc=ALL-UNNAMED run counter.scala
