@@ -9,3 +9,49 @@ hs_err_pid*
 
 # build server protocol files 
 .bsp
+
+# Scala build directories
+target/
+.scala-build/
+
+# Metals and Bloop (Scala build tools)
+.metals/
+.bloop/
+.bsp/
+project/metals.sbt
+project/.bloop/
+.scala-build
+metals.sbt
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target/
+project/project/
+
+# Scala-specific
+*.class
+*.log
+.scala_dependencies
+.worksheet
+.cache-main
+.cache-tests
+
+# IDE specific files
+.idea/
+.idea_modules/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS specific files
+.DS_Store
+*~
+.*.swp
